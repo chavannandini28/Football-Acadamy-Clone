@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
 
 .Navbar{
@@ -26,7 +29,7 @@
     gap: 35px;
     background-color: transparent;
     position: absolute;
-    margin-left: 57%;
+    margin-left: 55%;
     margin-top: 60px;
 }
 
@@ -187,10 +190,179 @@ span {
 
 .headingPlayer {
     border-left: 9px solid #B53232;
-    font-size: 50px;
+    font-size: 55px;
     padding-left: 5px;
     line-height: 90%;
     position: absolute;
     margin-top: -100px;
     margin-left: 150px;
+}
+
+.playerContent {
+    position: absolute;
+    margin-top: -750px;
+    margin-left: 150px;
+    color: #FFFFFF;
+}
+
+.playerContent h1 {
+    font-size: 65px;
+    font-weight: 600;
+}
+
+.playerContent p {
+    margin-left: 20%;
+    font-size: 30px;
+    color: rgb(217, 217, 217);
+    font-weight: 600;
+}
+
+.goal {
+    color: #4395D2;
+    font-weight: 600;
+}
+
+
+/*----------------------------------------*/
+
+
+.CurIMG {
+    margin-top: 30px;
+}
+
+.CurIMG img {
+    height: 380px;
+    width: 550px;
+    margin: 50px;
+}
+
+.IMGcurosal {
+    height: 380px;
+    width: 550px;
+    margin-top: -500px;
+}
+
+
+.Arrows img {
+    height: 30px;
+    margin: 40px;
+}
+
+
+.CurContent {
+    display: flex;
+    width: 85%;
+    margin-left: 8%;
+    margin-bottom: 100px;
+
+}
+
+.CurContentSub {
+    margin: 40px;
+}
+
+.CurContentSub1{
+    margin: 40px;  
+    margin-right: 50px;
+}
+
+/*-------------------------------*/
+
+.Form {
+    background-color: rgb(203, 203, 203);
+    padding-top: 80px;
+    padding-left: 150px;
+    height: 650px;
+    
+}
+
+.FormInfo {
+    margin-top: 30px;
+}
+
+.FormInfo input {
+    padding: 30px;
+    border-radius: 40px;
+    width: 100%;
+    margin-top: 30px;
+    margin-right: 300px;
+}
+
+.FormContent {
+    display: flex;
+
+}
+
+.Form img {
+    height: 570px;
+    margin-left: 100px;
+    margin-top: -80px;
+}
+
+.FormContent a {
+    color: #B53232;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 400px;
+    margin-left: -450px;
+}
+
+/*-----------------------------------------*/
+
+.Footer {
+    
+    background-color: black;
+    color: #FFFFFF;
+    padding-top: 40px;
+}
+
+.footheading {
+    margin-top: -50px;
+}
+
+.footMain {
+    display: flex;
+    gap: 300px;
+    padding: 150px;
+    padding-bottom: 30px;
+}
+
+.footContent a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footContent ul {
+    list-style: none;
+}
+
+.footContent li {
+    margin-bottom: 30px;
+}
+
+.footContent {
+    margin-top: -80px;
+}
+
+
+.footIcon {
+    color: #FFFFFF;
+    margin-top: -20px;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.footIcon a {
+    color:#FFFFFF;
+}
+
+.foAtag {
+    padding-top: 30px;
+}
+
+.footerline {
+    background-color: black;
+    color: #B53232;;
+    text-align: center;
+    padding: 30px;
 }

@@ -9,20 +9,23 @@
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
 
     <header>
-        <nav class="Navbar">
+        <nav class="Navbar" id="Navbar">
             <p>CHAMPACAD</p>
 
             <ul class="navHeading">
-                <li><a href="">HOME</a></li>
-                <li><a href="">ABOUT</a></li>
-                <li><a href="">REGISTER</a></li>
-                <li><a href="">CONTACT</a></li>
+                <li><a href="#Navbar">HOME</a></li>
+                <li><a href="#About">ABOUT</a></li>
+                <li><a href="#RegisterSection">REGISTER</a></li>
+                <li><a href="#Form">CONTACT</a></li>
             </ul>
         </nav>
 
@@ -60,7 +63,7 @@
             <p>NEVER LET THE <span>FEAR</span> OF LOSING KEEP YOU </p>
             <p class="registP">FROM <span>WINNING</span> THE GAME</p>
 
-            
+
             <a href="">REGISTER NOW</a>
         </center>
     </section>
@@ -74,32 +77,38 @@
 
         <div class="rightside">
             <div class="coach1">
-                <h3 >JAN PANTUCEK</h3>
-            <P>HEAD COACH</P>
+                <h3>JAN PANTUCEK</h3>
+                <P>HEAD COACH</P>
             </div>
             <div class="pAboutContent">
-                <p >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type </p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                </p>
             </div>
 
 
 
-             <div class="coach1" id="coach2">
-                <h3 >OLIVER WAHN</h3>
-            <P>HEAD COACH</P>
-            </div>
-            <div class="pAboutContent">
-                <p >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type </p>
-            </div>
-
-
-             <div class="coach1" id="coach3">
-                <h3 >JAN PANTUCEK</h3>
-            <P>HEAD COACH</P>
+            <div class="coach1" id="coach2">
+                <h3>OLIVER WAHN</h3>
+                <P>HEAD COACH</P>
             </div>
             <div class="pAboutContent">
-                <p >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type </p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                </p>
             </div>
-            
+
+
+            <div class="coach1" id="coach3">
+                <h3>JAN PANTUCEK</h3>
+                <P>HEAD COACH</P>
+            </div>
+            <div class="pAboutContent">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                </p>
+            </div>
+
         </div>
 
     </section>
@@ -107,133 +116,109 @@
 
 
     <section id="Player" class="Player">
-        <img src="./assets/Rectangle 6.png" alt="">
-        
+
+        <img src="./assets/background player.PNG" alt="">
+
         <h1 class="headingPlayer">GALLERY</h1>
+
+        <div class="playerContent">
+            <p>PLAYER OF THE WEEK</p>
+            <h1>JOHAN BRANDY</h1>
+            <p style="color: black;"><span class="goal">10</span> GOALS <span class="goal">5</span> ASSISTS</p>
+        </div>
+
     </section>
 
 
 
+    <section class="Curosal" id="Curosal">
+        <center>
+            <div class="CurIMG">
+                <img src="./assets/train3 1.png" alt="">
+                <img src="./assets/train2 1.png" alt="">
+            </div>
+
+            <img src="./assets/train1 1.png" alt="" class="IMGcurosal">
+
+            <div class="Arrows">
+                <img src="./assets/arrow 2.png" alt="">
+                <img src="./assets/arrow 1.png" alt="">
+            </div>
+
+        </center>
+
+        <div class="CurContent">
+            <div class="CurContentSub1">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                </p>
+                <br>
+
+                <p>and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap into electronic typesetting, remaining essentials.</p>
+            </div>
+
+            <div class="CurContentSub">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                </p>
+                <br>
+
+                <p>and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap into electronic typesetting, remaining essentials.</p>
+            </div>
+        </div>
+
+    </section>
 
 
-    jw[ewcvjbww]
-</body>
 
-=======
-<!DOCTYPE html>
-<html lang="en">
+    <section id="Form" class="Form">
+        <h1 class="headingFounding headingForm">JOIN THE TEAM!</h1>
+        <div class="FormContent">
+            <form action="" class="FormInfo">
+                <input type="text" placeholder="NAME"><br>
+                <input type="text" placeholder="SURNAME"><br>
+                <input type="text" placeholder="DATE OF BIRTH"><br>
+                <input type="text" placeholder="PHONE NUMBER"><br>
+            </form>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Football Academy</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
+            <img src="./assets/IMG_2616.PNG" alt="">
+            <a href="">Submit | More info</a>
+        </div>
+    </section>
 
 
-    <header>
-        <nav class="Navbar">
-            <p>CHAMPACAD</p>
+    <section id="Footer" class="Footer">
+        <div class="footMain">
+            <div class="footheading">
+            <h1>READY FOR YOUR</h1>
+            <h1><span>FIRST</span> TRAINING ?</h1>
+        </div>
 
-            <ul class="navHeading">
+        <div class="footContent">
+            <center>
+                <ul>
                 <li><a href="">HOME</a></li>
                 <li><a href="">ABOUT</a></li>
                 <li><a href="">REGISTER</a></li>
                 <li><a href="">CONTACT</a></li>
             </ul>
-        </nav>
-
-        <div class="title">
-            <b>
-                <p>TRAIN LIKE A <span>CHAMP</span></p>
-            </b>
+            </center>
         </div>
-        <img src="./assets/logo.png" alt="" class="logo">
-        <img src="./assets/header.png" alt="header img" />
 
-    </header>
-
-    <section id="foundingAcademy" class="foundingAcademy">
-        <div class="foundingAca">
-            <div class="imgDiv">
-                <img src="./assets/finding section img.png" />
-            </div>
-            <div class="contentDiv">
-                <h3 class="headingFounding">founding of the football academy</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                </p>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                </p>
-            </div>
+        <div class="footIcon">
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        </div>
         </div>
     </section>
 
-
-
-    <section id="RegisterSection" class="RegisterSection">
-        <center>
-            <p>NEVER LET THE <span>FEAR</span> OF LOSING KEEP YOU </p>
-            <p class="registP">FROM <span>WINNING</span> THE GAME</p>
-
-            
-            <a href="">REGISTER NOW</a>
-        </center>
+    <section class="footerline">
+        <p>© 2026 CHAMPACAD Ltd.</p>
     </section>
 
-
-
-    <section id="About" class="About">
-        <div class="leftside">
-            <img src="./assets/Frame 6.png" alt="">
-        </div>
-
-        <div class="rightside">
-            <div class="coach1">
-                <h3 >JAN PANTUCEK</h3>
-            <P>HEAD COACH</P>
-            </div>
-            <div class="pAboutContent">
-                <p >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type </p>
-            </div>
-
-
-
-             <div class="coach1" id="coach2">
-                <h3 >OLIVER WAHN</h3>
-            <P>HEAD COACH</P>
-            </div>
-            <div class="pAboutContent">
-                <p >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type </p>
-            </div>
-
-
-             <div class="coach1" id="coach3">
-                <h3 >JAN PANTUCEK</h3>
-            <P>HEAD COACH</P>
-            </div>
-            <div class="pAboutContent">
-                <p >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type </p>
-            </div>
-            
-        </div>
-
-    </section>
-
-
-
-    <section id="Player" class="Player">
-        <img src="./assets/Rectangle 6.png" alt="">
-        
-        <h1 class="headingPlayer">GALLERY</h1>
-    </section>
-
-    
 </body>
+
 </html>
